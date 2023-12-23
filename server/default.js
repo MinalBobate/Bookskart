@@ -13,4 +13,5 @@ const DefaultData = async () => {
     }
 }
 
+
 export default DefaultData;

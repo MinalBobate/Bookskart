@@ -1,6 +1,7 @@
-import mongoose from "mongoose";
+import mongoose from 'mongoose';
+// import autoIncrement from 'mongoose-auto-increment';
 
-const productSchema=new mongoose.Schema({
+const productSchema = new mongoose.Schema({
     id: String,
     url: String,
     detailUrl: String,
@@ -10,8 +11,11 @@ const productSchema=new mongoose.Schema({
     description: String,
     discount: String,
     tagline: String
-
 });
 
-const Product=mongoose.model('product', productSchema)
-export default Product;
+// autoIncrement.initialize(mongoose.connection);
+// productSchema.plugin(autoIncrement.plugin, 'product');
+
+const products = mongoose.model('product', productSchema);
+
+export default products;

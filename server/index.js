@@ -3,8 +3,8 @@ import cors from 'cors';
 import dotenv from 'dotenv';
 import mongoose from 'mongoose';
 import Connection from './database/db.js';
-
-
+import Routes from './routes/route.js';
+// import  from './default.js';
 const app = express();
 dotenv.config();
 
@@ -13,16 +13,17 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cors());
 
-import Product from './model/productSchema.js';
-import userRouter from './routes/user.js'
 
-app.use('/',userRouter)
 
+
+app.use('/', Routes);
 
 app.get('/', (req, res) => {
   res.send('Hello, World!');
 });
 
+
+// DefaultData();
 const USERNAME=process.env.DB_USERNAME;
 const PASSWORD=process.env.DB_PASSWORD;
 Connection(USERNAME,PASSWORD);

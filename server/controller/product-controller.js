@@ -11,11 +11,11 @@ export const getProducts = async (request, response) => {
     }
 }
 
-// export const getProductById = async (request, response) => {
-//     try {
-//         const products = await Product.findOne({ 'id': request.params.id });
-//         response.json(products);
-//     }catch (error) {
+export const getProductById = async (request, response) => {
+    try {
+        const products = await Product.findOne({ 'id': request.params.id });
+        response.json(products);
+    }catch (error) {
 
-//     }
-// }
+    }
+}
