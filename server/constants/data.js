@@ -1,11 +1,11 @@
 export const products = [
     { 
         id: 'product1',
-        url: 'https://rukminim1.flixcart.com/image/150/150/kapoo7k0/electric-kettle/p/6/s/pigeon-favourite-original-imafs7xhj5uwgrh4.jpeg?q=70', 
-        detailUrl: 'https://rukminim1.flixcart.com/image/416/416/kapoo7k0/electric-kettle/p/6/s/pigeon-favourite-original-imafs7xhj5uwgrh4.jpeg?q=70',
+        url: './images/sciencemarathi.jpg', 
+        detailUrl: './images/sciencemarathi.jpg',
         title: {
-            shortTitle: 'Home & Kitchen',
-            longTitle: 'Pigeon FAVOURITE Electric Kettle  (1.5 L, Silver, Black)'
+            shortTitle: 'Science Std. 8th',
+            longTitle:'Science Std. 8th'
         }, 
         price: {
             mrp: 1195,
@@ -15,15 +15,18 @@ export const products = [
         quantity: 1,
         description: 'This electric kettle from Pigeon will soon become a travelers best friend, a hostelite saviour and an answer to all the midnight cravings. With this handy appliance, you can boil water and use it to make instant noodles, packet soup, coffee and green tea.',
         discount: 'Extra 10% Off', 
-        tagline: 'Deal of the day' 
+        tagline: 'Deal of the day',
+        language:'marathi',
+        category:'science',
+        bindingType:'paperback'
     },
     { 
         id: 'product2',
-        url: 'https://rukminim1.flixcart.com/image/416/416/kl6wx3k0/sandwich-maker/8/r/d/sandwich-01-flipkart-smartbuy-original-imagydds4zthxt8z.jpeg?q=70', 
-        detailUrl: 'https://rukminim1.flixcart.com/image/416/416/kl6wx3k0/sandwich-maker/8/r/d/sandwich-01-flipkart-smartbuy-original-imagydds4zthxt8z.jpeg?q=70',
+        url: './images/scienceenglish.jpg', 
+        detailUrl: './images/scienceenglish.jpg',
         title: {
-            shortTitle: 'Sandwich Makers',
-            longTitle: 'Flipkart SmartBuy Sandwich 01 Grill  (Black)'
+            shortTitle: 'Science & Technology',
+            longTitle: 'Science & Technology'
         },
         price: {
             mrp: 1499,
@@ -33,96 +36,312 @@ export const products = [
         quantity: 1,
         description: 'This non-stick sandwich toaster .easy to use and very handy. Directly hold over flame to make tasty toasts and toasted sandwiches. Specially designed by keeping your needs in mind, the sandwich maker makes whatever youre doing simpler, smarter and better',
         discount: 'From 99+5% Off', 
-        tagline: 'Pestige, Nova & more' 
+        tagline: 'Pestige, Nova & more',
+        language:'english',
+        category:'science',
+        bindingType:'paperback'
+        
+        
     },
     { 
         id: 'product3',
-        url: 'https://rukminim1.flixcart.com/image/150/150/kohigsw0/resistance-tube/c/s/e/new-adjustable-single-resistance-tube-multicolor-na-ajro-deal-original-imag2xg88mhmwxz5.jpeg?q=70', 
-        detailUrl: 'https://rukminim1.flixcart.com/image/416/416/kohigsw0/resistance-tube/c/s/e/new-adjustable-single-resistance-tube-multicolor-na-ajro-deal-original-imag2xg88mhmwxz5.jpeg?q=70', 
+        url: './images/exam.jpg', 
+        detailUrl: './images/exam.jpg',
         title: {
-            shortTitle: 'Fitness Gear',
-            longTitle: 'AJRO DEAL New Adjustable Single Resistance Tube (Multicolor) Resistance Tube  (Multicolor)'
+            shortTitle: 'IBPS Bank PO',
+            longTitle: 'IBPS Bank PO'
         }, 
         price: {
-            mrp: 499,
-            cost: 166,
-            discount: '66%'
+            mrp: 1195,
+            cost: 625,
+            discount: '47%'
         },
         quantity: 1,
-        description: 'This unique product can tone your back muscles, reduce belly fat, improve blood circulation and also improves your body posture. It increases the stamina, energy and vitality of the body. The elastic resistance of the rubber training rope can be used to train and exercise in whichever way you want, according to your physical needs.',
-        discount: 'Upto 70% Off', 
-        tagline: 'Deal of the Day' 
+        description: 'This electric kettle from Pigeon will soon become a travelers best friend, a hostelite saviour and an answer to all the midnight cravings. With this handy appliance, you can boil water and use it to make instant noodles, packet soup, coffee and green tea.',
+        discount: 'Extra 10% Off', 
+        tagline: 'Deal of the day',
+        language:'english',
+        category:'exam',
+        bindingType:'paperback'
     },
     { 
         id: 'product4',
-        url: 'https://rukminim1.flixcart.com/image/300/300/kll7bm80/smartwatch/c/1/n/43-mo-sw-sense-500-android-ios-molife-original-imagyzyycnpujyjh.jpeg?q=70', 
-        detailUrl: 'https://rukminim1.flixcart.com/image/416/416/kll7bm80/smartwatch/c/1/n/43-mo-sw-sense-500-android-ios-molife-original-imagyzyycnpujyjh.jpeg?q=70',
+        url: './images/examupsc.jpg', 
+        detailUrl: './images/examupsc.jpg',
         title: {
-            shortTitle: 'Smart Watches',
-            longTitle: 'Molife Sense 500 Smartwatch  (Black Strap, Freesize)',
+            shortTitle: 'UPSC Topper',
+            longTitle: 'UPSC Topper'
         }, 
         price: {
-            mrp: 6999,
-            cost: 4049,
-            discount: '42%'
+            mrp: 1195,
+            cost: 625,
+            discount: '47%'
         },
         quantity: 1,
-        description: 'The Molife Sense 500, a brilliant smartwatch with a beautiful large display. Say hello to the infinity 1.7-inch display with 2.5D curved edges. Thanks to seamless Bluetooth 5.0 connectivity, you wont have to keep waiting. Bring a change to your outfit every day with changeable straps. A splash of color every day keeps the boredom away.',
-        discount: 'Grab Now', 
-        tagline: 'Best Seller' 
+        description: 'This electric kettle from Pigeon will soon become a travelers best friend, a hostelite saviour and an answer to all the midnight cravings. With this handy appliance, you can boil water and use it to make instant noodles, packet soup, coffee and green tea.',
+        discount: 'Extra 10% Off', 
+        tagline: 'Deal of the day',
+        language:'hindi',
+        category:'exam',
+        bindingType:'paperback'
     },
     { 
         id: 'product5',
-        url: 'https://rukminim1.flixcart.com/image/416/416/k3uhhu80/hair-dryer/n/m/t/nova-2800-w-professional-nhp-8220-original-imafmvwfhmzsxdrw.jpeg?q=70',
-        detailUrl: 'https://rukminim1.flixcart.com/image/416/416/k3uhhu80/hair-dryer/n/m/t/nova-2800-w-professional-nhp-8220-original-imafmvwfhmzsxdrw.jpeg?q=70', 
+        url: './images/fictionalbook.jpg', 
+        detailUrl: './images/fictionalbook.jpg',
         title: {
-            shortTitle: 'Trimmers, Dryers & more',
-            longTitle: 'Nova Professional NHP 8220 Hair Dryer  (1800 W, Multicolor)'
+            shortTitle: 'Harry Potter',
+            longTitle: 'Harry Potter'
         }, 
         price: {
-            mrp: 1899,
-            cost: 1124,
-            discount: '40%'
+            mrp: 1195,
+            cost: 625,
+            discount: '47%'
         },
         quantity: 1,
-        description: '',
-        discount: 'From ₹499', 
-        tagline: 'Kubra, Nova & more' 
+        description: 'This electric kettle from Pigeon will soon become a travelers best friend, a hostelite saviour and an answer to all the midnight cravings. With this handy appliance, you can boil water and use it to make instant noodles, packet soup, coffee and green tea.',
+        discount: 'Extra 10% Off', 
+        tagline: 'Deal of the day',
+        language:'english',
+        category:'fiction',
+        bindingType:'paperback'
     },
     { 
         id: 'product6',
-        url: 'https://rukminim1.flixcart.com/image/150/150/kk01pjk0/fan/d/d/l/tiktik-quiet-portable-table-fan-zigma-original-imafzg7ftzuckpad.jpeg?q=70',
-        detailUrl: 'https://rukminim1.flixcart.com/image/416/416/kk01pjk0/fan/d/d/l/tiktik-quiet-portable-table-fan-zigma-original-imafzg7ftzuckpad.jpeg?q=70', 
+        url: './images/non-fictionalenglish.jpg', 
+        detailUrl: './images/non-fictionalenglish.jpg',
         title: {
-            shortTitle: 'Table Fans',
-            longTitle: 'Portable 300 mm Ultra High Speed 3 Blade Table Fan  (Black, Pack of 1)'
+            shortTitle: 'APJ Abdul Kalam',
+            longTitle: 'APJ Abdul Kalam'
         }, 
         price: {
-            mrp: 2250,
-            cost: 1199,
-            discount: '46%'
+            mrp: 1195,
+            cost: 625,
+            discount: '47%'
         },
         quantity: 1,
-        description: 'Table Fan. Perfect size fan for use on a table, desk or in an RV. Whisper quiet, powerful airflow and reliable operation in a compact 6" size. Two adjustable speeds to customize airflow: high or low settings. Tough break-resistant ABS plastic blades. ',
-        discount: 'Minimum 40% Off', 
-        tagline: 'Top Selling' 
+        description: 'This electric kettle from Pigeon will soon become a travelers best friend, a hostelite saviour and an answer to all the midnight cravings. With this handy appliance, you can boil water and use it to make instant noodles, packet soup, coffee and green tea.',
+        discount: 'Extra 10% Off', 
+        tagline: 'Deal of the day',
+        language:'english',
+        category:'non-fiction',
+        bindingType:'paperback'
     },
     { 
         id: 'product7',
-        url: 'https://rukminim1.flixcart.com/image/150/150/kcgk1ow0/headphone/n/u/a/235v2-fast-charging-boat-original-imaftk6us4af7bca.jpeg?q=70',
-        detailUrl: 'https://rukminim1.flixcart.com/image/416/416/kcgk1ow0/headphone/n/u/a/235v2-fast-charging-boat-original-imaftk6us4af7bca.jpeg?q=70', 
+        url: './images/non-fictionalbookenglish.jpg', 
+        detailUrl: './images/non-fictionalbookenglish.jpg',
         title: {
-            shortTitle: 'Headphones',
-            longTitle: 'boAt Rockerz 235v2 with ASAP charging Version 5.0 Bluetooth Headset '
+            shortTitle: 'Breath James Nestor',
+            longTitle: 'Breath James Nestor'
         }, 
         price: {
-            mrp: 2990,
-            cost: 1199,
-            discount: '59%'
+            mrp: 1195,
+            cost: 625,
+            discount: '47%'
         },
         quantity: 1,
-        description: 'Let music brighten up your mood anytime, anywhere with the boAt 235v2 Fast Charging Bluetooth Headset. This Bluetooth headset features a Call Vibration Alert, a Fast Charging Technology, and Easy Access Controls to listen to and manage your favorite music with ease.',
-        discount: 'Minimum 50% Off', 
-        tagline: 'Grab Now!' 
-    }
-];
+        description: 'This electric kettle from Pigeon will soon become a travelers best friend, a hostelite saviour and an answer to all the midnight cravings. With this handy appliance, you can boil water and use it to make instant noodles, packet soup, coffee and green tea.',
+        discount: 'Extra 10% Off', 
+        tagline: 'Deal of the day',
+        language:'english',
+        category:'non-fiction',
+        bindingType:'paperback'
+    },
+
+   
+        { 
+            id: 'product8',
+            url: './images/product8.jpg', 
+            detailUrl: './images/product8.jpg',
+            title: {
+                shortTitle: 'Harry Potter Boxset',
+                longTitle: 'Harry Potter Boxset'
+            }, 
+            price: {
+                mrp: 1195,
+                cost: 625,
+                discount: '47%'
+            },
+            quantity: 1,
+            description: 'This electric kettle from Pigeon will soon become a travelers best friend, a hostelite saviour and an answer to all the midnight cravings. With this handy appliance, you can boil water and use it to make instant noodles, packet soup, coffee and green tea.',
+            discount: 'Extra 10% Off', 
+            tagline: 'Deal of the day',
+            language:'english',
+            category:'boxset',
+            bindingType:'paperback'
+        },
+        { 
+            id: 'product9',
+            url: './images/product9.jpg', 
+            detailUrl: './images/product9.jpg',
+            title: {
+                shortTitle: 'Game of Thrones',
+                longTitle: 'Game of Thrones Boxset 5 Books'
+            },
+            price: {
+                mrp: 1499,
+                cost: 899,
+                discount: '40%'
+            },
+            quantity: 1,
+            description: 'This non-stick sandwich toaster .easy to use and very handy. Directly hold over flame to make tasty toasts and toasted sandwiches. Specially designed by keeping your needs in mind, the sandwich maker makes whatever youre doing simpler, smarter and better',
+            discount: 'From 99+5% Off', 
+            tagline: 'Pestige, Nova & more',
+            language:'english',
+            category:'boxset',
+            bindingType:'paperback'
+            
+            
+        },
+        { 
+            id: 'product10',
+            url: './images/product10.jpg', 
+            detailUrl: './images/product10.jpg',
+            title: {
+                shortTitle: 'Hindi Grammer',
+                longTitle: 'Hindi Grammer'
+            }, 
+            price: {
+                mrp: 1195,
+                cost: 625,
+                discount: '47%'
+            },
+            quantity: 1,
+            description: 'This electric kettle from Pigeon will soon become a travelers best friend, a hostelite saviour and an answer to all the midnight cravings. With this handy appliance, you can boil water and use it to make instant noodles, packet soup, coffee and green tea.',
+            discount: 'Extra 10% Off', 
+            tagline: 'Deal of the day',
+            language:'hindi',
+            category:'school',
+            bindingType:'paperback'
+        },
+        { 
+            id: 'product11',
+            url: './images/cat.jpg', 
+            detailUrl: './images/cat.jpg',
+            title: {
+                shortTitle: 'CAT Capsule',
+                longTitle: 'CAT exam preparation Book'
+            }, 
+            price: {
+                mrp: 1195,
+                cost: 625,
+                discount: '47%'
+            },
+            quantity: 1,
+            description: 'This electric kettle from Pigeon will soon become a travelers best friend, a hostelite saviour and an answer to all the midnight cravings. With this handy appliance, you can boil water and use it to make instant noodles, packet soup, coffee and green tea.',
+            discount: 'Extra 10% Off', 
+            tagline: 'Deal of the day',
+            language:'english',
+            category:'exam',
+            bindingType:'paperback'
+        },
+        { 
+            id: 'product12',
+            url: './images/product12.jpg', 
+            detailUrl: './images/product12.jpg',
+            title: {
+                shortTitle: 'Ruskin Bond',
+                longTitle: 'Ruskin Bond'
+            }, 
+            price: {
+                mrp: 1195,
+                cost: 625,
+                discount: '47%'
+            },
+            quantity: 1,
+            description: 'This electric kettle from Pigeon will soon become a travelers best friend, a hostelite saviour and an answer to all the midnight cravings. With this handy appliance, you can boil water and use it to make instant noodles, packet soup, coffee and green tea.',
+            discount: 'Extra 10% Off', 
+            tagline: 'Deal of the day',
+            language:'english',
+            category:'fiction',
+            bindingType:'paperback'
+        },
+        { 
+            id: 'product13',
+            url: './images/product13.jpg', 
+            detailUrl: './images/product13.jpg',
+            title: {
+                shortTitle: 'Olympiad 10th std',
+                longTitle: 'Olympiad 10th std'
+            }, 
+            price: {
+                mrp: 1195,
+                cost: 625,
+                discount: '47%'
+            },
+            quantity: 1,
+            description: 'This electric kettle from Pigeon will soon become a travelers best friend, a hostelite saviour and an answer to all the midnight cravings. With this handy appliance, you can boil water and use it to make instant noodles, packet soup, coffee and green tea.',
+            discount: 'Extra 10% Off', 
+            tagline: 'Deal of the day',
+            language:'english',
+            category:'school',
+            bindingType:'paperback'
+        },
+        { 
+            id: 'product14',
+            url: './images/product14.jpg', 
+            detailUrl: '.images/product14.jpg',
+            title: {
+                shortTitle: 'Femina Magazine',
+                longTitle: 'Femina Magazine'
+            }, 
+            price: {
+                mrp: 1195,
+                cost: 625,
+                discount: '47%'
+            },
+            quantity: 1,
+            description: 'This electric kettle from Pigeon will soon become a travelers best friend, a hostelite saviour and an answer to all the midnight cravings. With this handy appliance, you can boil water and use it to make instant noodles, packet soup, coffee and green tea.',
+            discount: 'Extra 10% Off', 
+            tagline: 'Deal of the day',
+            language:'english',
+            category:'magazine',
+            bindingType:'e-book'
+        },
+
+
+     { 
+            id: 'product15',
+            url: './images/fictionenglish.jpg', 
+            detailUrl: '.images/fictionenglish.jpg',
+            title: {
+                shortTitle: 'Daughter of Man',
+                longTitle: 'Daughter of Man'
+            }, 
+            price: {
+                mrp: 1195,
+                cost: 625,
+                discount: '47%'
+            },
+            quantity: 1,
+            description: 'This electric kettle from Pigeon will soon become a travelers best friend, a hostelite saviour and an answer to all the midnight cravings. With this handy appliance, you can boil water and use it to make instant noodles, packet soup, coffee and green tea.',
+            discount: 'Extra 10% Off', 
+            tagline: 'Deal of the day',
+            language:'english',
+            category:'fiction',
+            bindingType:'hardcover'
+        },
+        { 
+            id: 'product16',
+            url: './images/product16.jpg', 
+            detailUrl: '.images/product16.jpg',
+            title: {
+                shortTitle: 'Kids Space',
+                longTitle: 'Kids Space'
+            }, 
+            price: {
+                mrp: 1195,
+                cost: 625,
+                discount: '47%'
+            },
+            quantity: 1,
+            description: 'This electric kettle from Pigeon will soon become a travelers best friend, a hostelite saviour and an answer to all the midnight cravings. With this handy appliance, you can boil water and use it to make instant noodles, packet soup, coffee and green tea.',
+            discount: 'Extra 10% Off', 
+            tagline: 'Deal of the day',
+            language:'english',
+            category:'children',
+            bindingType:'hardcover'
+        },
+]
+

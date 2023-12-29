@@ -10,7 +10,10 @@ const productSchema = new mongoose.Schema({
     quantity: Number,
     description: String,
     discount: String,
-    tagline: String
+    tagline: String,
+    language:String,
+    category:String,
+    bindingType:String
 });
 
 // autoIncrement.initialize(mongoose.connection);

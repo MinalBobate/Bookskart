@@ -2,22 +2,22 @@ import User from '../model/userSchema.js';
 
 export const userLogIn = async (request, response) => {
     try {
-        let user = await User.findOne({ username: request.body.username, password: request.body.password });
+        let user = await User.findOne({ email: request.body.email, password: request.body.password });
         if(user) {
-            return response.status(200).json(`${request.body.username} login successfull`);
+            return response.status(200).json(user);
         } else {
-            return response.status(401).json('Invalid Login');
+            return response.status(401).json({message:error.message});
         }
 
     } catch (error) {
-        response.json('Error: ', error.message);        
+       return  response.status(500).json({message: error.message});        
     }
 }
 
 export const userSignUp = async (request, response) => {
     try {
-        const exist = await User.findOne({ username: request.body.username });
-        if(exist) {
+        const exist = await User.findOne({ email: request.body.email });
+        if(Boolean(exist)) {
             return response.status(401).json({ message: 'User already exist'});
         }
         const user = request.body;
