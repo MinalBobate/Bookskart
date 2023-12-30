@@ -17,12 +17,12 @@ app.use('/', Routes);
 
 const USERNAME=process.env.DB_USERNAME;
 const PASSWORD=process.env.DB_PASSWORD;
-   
-const URL = `mongodb+srv://${USERNAME}:${PASSWORD}@cluster0.ruedanh.mongodb.net/?retryWrites=true&w=majority`
+const PORT = process.env.PORT || 8003;  
+const URL = process.env.MONGODB_URI || `mongodb+srv://${USERNAME}:${PASSWORD}@cluster0.ruedanh.mongodb.net/?retryWrites=true&w=majority`
+
 
 Connection(URL);
 
-const PORT = process.env.PORT || 8001;
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
